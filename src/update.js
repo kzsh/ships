@@ -1,6 +1,7 @@
 import { createGame } from "./game";
 import { render } from "./renderer";
 const TARGET_FPS = 1000 / 20;
+
 export function initialize() {
   const keysDown = {};
   const canvas = document.createElement("canvas");
